@@ -1,10 +1,46 @@
-# Time Logger
-Log the running time of your functions.
+# Runtimecheck
 
-### How To Use
-Import the decorator using below code.\
-Make sure time_logger and your script are on same level or else do appropriate changes for import.
+Forked from the [Time-Logger](https://github.com/ishaansharma7/Time-Logger) Runtimecheck is an efficient Python library to help you quickly measure your functions's running time on a jupyter noetbook
 
-### `from time_logger import time_logger`
 
-### ⚠️Check example.py for usage⚠️
+
+## Installation
+
+On the terminal
+
+```bash
+pip install runtimecheck
+```
+On a Jupyter Notebook
+```bash
+!pip install runtimecheck
+```
+## Example Usage
+
+```python
+import time
+
+from runtimecheck.Timer import check_runtime
+
+@check_runtime()
+def hello_world():    
+    time.sleep(2)
+    print("Hello World")
+
+
+say_hi()
+
+# Result
+# Hello World
+# hello_world ran in 2.0001 seconds
+
+
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
