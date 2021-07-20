@@ -1,6 +1,6 @@
 # Runtimecheck
 
-Forked from the [Time-Logger](https://github.com/ishaansharma7/Time-Logger) Runtimecheck is an efficient Python library to help you quickly measure your functions's running time on a jupyter noetbook
+Originally Forked from the [Time-Logger](https://github.com/ishaansharma7/Time-Logger) Runtimecheck is an efficient Python library to help you quickly measure your functions's running time on a jupyter noetbook
 
 
 
@@ -30,11 +30,11 @@ def hello_world():
 
 say_hi()
 
-# Result
-# Hello World
-# hello_world ran in 2.0001 seconds
-
-
+```
+### Result
+```bash
+>> Hello World
+>> hello_world ran in 2.0001 seconds
 ```
 
 ## Contributing
