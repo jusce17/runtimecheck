@@ -40,7 +40,8 @@ say_hi()
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+Please make sure to pull and push on the beta branch so you know you are working on the latest version.
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
