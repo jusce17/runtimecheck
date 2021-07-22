@@ -1,6 +1,11 @@
-*.pyc
-models/
+build/
+dist/
+
+#Mac Stuff
+.DS_Store
+
+# Python Stuff
 __pycache__
 /__pycache__
-package/
-.DS_Store
+*.pyc
+*.egg-info
